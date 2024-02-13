@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body style="background-color: #dcdddd">
-
+    
     <nav class="navbar bg-body-secondary    ">
         <div class="container-fluid">
           <a class="navbar-brand">ZBooks</a>
@@ -17,8 +17,7 @@
           </form>
         </div>
       </nav>
-      <div class="center-text"  style="text-align: center;">
-        <img src="{{asset('sneat/assets/static/images/hd.jpg')}}" class="card-img-top" alt="...">
+      <div class="center-text"  style="text-align: center; margin-top: 250px">
           <h1>SELAMAT DATANG DI PERPUSTAKAAN DIGITAL</h1> <br>
           <h3>menyediakan akses online terhadap koleksi bahan bacaan dan sumber daya informasi</h3>  
       </div>
