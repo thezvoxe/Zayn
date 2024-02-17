@@ -19,7 +19,7 @@
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
                 <div class="d-flex justify-content-center mb-3">                   
-                    <a href="{{url('/login/dashboard')}}" class="btn btn-secondary" style="border-radius: 15px; width: 100;">Login</a>
+                    <a href="{{url('/admin')}}" class="btn btn-secondary" style="border-radius: 15px; width: 100;">Login</a>
                 </div>
                 <div>
                     <p>Belum punya akun? silahkan daftar terlebih dahulu</p>

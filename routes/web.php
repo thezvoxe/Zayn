@@ -14,21 +14,38 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.welcome');
 });
 
 Route::get('/login', function () {
-    return view('login');
+    return view('admin.login');
 });
 
-Route::get('/login/dashboard', function () {
-    return view('index');
+Route::get('/admin', function () {
+    return view('admin.admin');
 });
 
 Route::get('/register', function () {
-    return view('register');
+    return view('admin.register');
 });
 
 Route::get('/user', function () {
-    return view('user');
+    return view('admin.user');
+});
+
+Route::get('/kategori', function () {
+    return view('admin.kategori');
+});
+
+
+Route::get('/buku', function () {
+    return view('admin.buku');
+});
+
+Route::get('/peminjam', function () {
+    return view('admin.peminjam');
+});
+
+Route::get('/test', function () {
+    return view('test');
 });
